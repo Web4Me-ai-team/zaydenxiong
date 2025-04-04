@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="noise"></div>
+    <div class="overlay"></div>
+    
+    <header>
+        <div class="terminal-nav">
+            <div class="terminal-prompt">
+                <span class="terminal-user">my@portfolio</span>:<span class="terminal-path">~/resume</span>$ <span class="terminal-cursor">_</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#education">education</a></li>
+                    <li><a href="#experience">experience</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#publications">publications</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="glitch-wrapper">
+                    <h1 class="glitch" data-text="熊泽同">熊泽同</h1>
+                </div>
+                <h2 class="subtitle">AI产品管理 <span class="accent">|</span> 大数据分析 <span class="accent">|</span> 软件开发</h2>
+                <div class="hero-description">
+                    <!-- do not change below line -->
+                    <p>Exploring <span class="highlight">complex problems</span> through <span class="highlight">innovative research</span></p>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fas fa-graduation-cap"></i></a>
+                    <a href="mailto:zaydenxiong10@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> About Me</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>熊泽同是一位专注于AI产品管理的专业人士，拥有丰富的实习经验和学术背景。他在百度和清华大学等顶尖机构参与了多个AI产品的设计与优化，展现出卓越的产品迭代和市场分析能力。他的技术技能涵盖人工智能、大数据分析、产品设计和软件开发。</p>
+                        
+                        <div class="terminal-box">
+                            <div class="terminal-header">
+                                <span class="terminal-dot red"></span>
+                                <span class="terminal-dot yellow"></span>
+                                <span class="terminal-dot green"></span>
+                                <span class="terminal-title">zayden@portfolio:~</span>
+                            </div>
+                            <div class="terminal-body">
+                                <p><span class="command">$ cat contact_info.txt</span></p>
+                                <p>Email: zaydenxiong10@gmail.com</p>
+                                <p>Phone: 18007181135</p>
+                                <p>Location: </p>
+                                <p><span class="command">$</span><span class="terminal-cursor">_</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Education</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="education-container" id="education-container">
+                    <div class="education-item">
+                        <div class="item-header">
+                            <div class="item-title">硕士</div>
+                            <div class="item-date">2025</div>
+                        </div>
+                        <div class="item-subtitle">耶鲁大学</div>
+                        <div class="item-field">生物统计（医疗数据科学方向）</div>
+                    </div>
+                    
+                    <div class="education-item">
+                        <div class="item-header">
+                            <div class="item-title">交换生</div>
+                            <div class="item-date">2022</div>
+                        </div>
+                        <div class="item-subtitle">康奈尔大学</div>
+                        <div class="item-field">计算机科学</div>
+                    </div>
+
+                    <div class="education-item">
+                        <div class="item-header">
+                            <div class="item-title">学士</div>
+                            <div class="item-date">2023</div>
+                        </div>
+                        <div class="item-subtitle">中南财经政法大学</div>
+                        <div class="item-field">信息管理与信息系统（自然语言处理方向）</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Work Experience</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="experience-container" id="experience-container">
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">大模型策略产品经理实习生</div>
+                            <div class="item-date">2024.7 – 至今</div>
+                        </div>
+                        <div class="item-subtitle">百度TPG</div>
+                        <ul class="item-description">
+                            <li>参与多场景的产品迭代，优化文心一言的文生图，搜索，长文本阅读等专项能力。</li>
+                            <li>开展需求分析、竞品调研，制定评估标准，规划迭代路径，提升评估指标。</li>
+                            <li>支持文心一言网页端、百度APP、百度文库、Feed等产品。</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">智能搜推</span>
+                            <span class="technique-tag">多文档交互</span>
+                            <span class="technique-tag">PPT生成</span>
+                            <span class="technique-tag">文生图</span>
+                            <span class="technique-tag">AI灌评</span>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">大模型安全产品实习生</div>
+                            <div class="item-date">2024.4 – 2024.6</div>
+                        </div>
+                        <div class="item-subtitle">清华大学－科大讯飞联合研究中心</div>
+                        <ul class="item-description">
+                            <li>调研大模型在医疗行业的应用现状，分析市场需求与机会。</li>
+                            <li>辅助研究产品设计思路，完成初步产品功能设计并进行优先级排序。</li>
+                            <li>使用RAG，PE，SFT等模型对齐方法，针对自研大模型的安全与应用风险问题进行对齐工作。</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">BERT</span>
+                            <span class="technique-tag">Llama-Index</span>
+                            <span class="technique-tag">医疗风险识别</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">产品策划实习生</div>
+                            <div class="item-date">2023.3 – 2023.6</div>
+                        </div>
+                        <div class="item-subtitle">阿蒂法（上海）</div>
+                        <ul class="item-description">
+                            <li>进行产品市场调研，研究客户企业的电商渠道。</li>
+                            <li>分析消费者数据以改善营销策略并设计A/B Test进行验证。</li>
+                            <li>建立漏斗模型并突破转化瓶颈。</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">市场洞察</span>
+                            <span class="technique-tag">产品增长</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Projects</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="projects-grid" id="projects-container">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-folder-open"></i>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">AI玄学应用“深度运势 DeepFortune”产品设计与开发</h3>
+                        <p class="project-duration">2025.3 – 至今</p>
+                        <p class="project-description">调研 AI 玄学产品市场，设计 AI 八字算卦产品，并在IOS端、Android端、微信小程序平台独立开发实现。</p>
+                        <div class="project-tech">
+                            <span>Uizard</span>
+                            <span>Cursor</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-folder-open"></i>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">耶鲁大学管理学院Apple Vision Pro 产品管理实践</h3>
+                        <p class="project-duration">2024.1 – 2024.5</p>
+                        <p class="project-description">扮演Vision Pro产品管理者，依据科技趋势、市场需求、竞争格局，规划产品迭代策略，完成功能设计。</p>
+                        <div class="project-outcomes">
+                            <h4>Outcomes:</h4>
+                            <ul>
+                                <li>确定AR+AI的产品定位</li>
+                                <li>制定生态无缝衔接、混合现实、零感佩戴、内容丰富性等迭代策略与响应功能</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="publications">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Publications</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="publications-container" id="publications-container">
+                    <div class="publication-item">
+                        <h3 class="publication-title">Predicting Adverse Drug Reactions using Recommender Systems: Past, Present and Future</h3>
+                        <div class="publication-meta">
+                            <span class="publication-journal">Nature Medicine</span>
+                        </div>
+                        <div class="publication-authors">
+                            <p>Zetong Xiong, Haoxuan Li, Chunyuan Zheng, Taojun Hu, Xiaohua Zhou, Fuli Feng, Xiangnan He</p>
+                        </div>
+                    </div>
+                    
+                    <div class="publication-item">
+                        <h3 class="publication-title">ADRNet: A Generalized Collaborative Filtering Framework Combining Clinical and Non-Clinical Data for Adverse Drug Reaction Prediction</h3>
+                        <div class="publication-meta">
+                            <span class="publication-journal">Proceedings of the 17th ACM Conference on Recommender Systems</span>
+                            <span class="publication-year">2023</span>
+                        </div>
+                        <div class="publication-authors">
+                            <p>Li, Haoxuan, Taojun Hu, Zetong Xiong, Chunyuan Zheng, Fuli Feng, Xiangnan He, Xiao-Hua Zhou</p>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <h3 class="publication-title">A Neural Collaborative Filtering Model for Adverse Drug Reaction Prediction</h3>
+                        <div class="publication-meta">
+                            <span class="publication-journal">2023 2nd International Conference on Data Analytics, Computing and Artificial Intelligence (ICDACAI)</span>
+                            <span class="publication-year">2023</span>
+                        </div>
+                        <div class="publication-authors">
+                            <p>Zetong Xiong, Zihao Du, Xi Rong, Yuting Yang, Xiaoyi Zhang</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Technical Skills</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>人工智能</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span>熟练使用主流大模型产品，熟悉Prompt调优与Llama-Index框架</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>数据分析</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span>熟悉PowerBI, Tableau, NumPy, Pandas等数据分析工具</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>产品设计</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span>熟练运用墨刀，Figma等原型设计工具</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>软件开发</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span>熟悉Java, Python等后端开发语言</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>经济管理</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span>ACCA通过10门考试</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="awards">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Honors & Awards</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="awards-container" id="awards-container">
+                    <div class="award-item">
+                        <div class="item-header">
+                            <div class="item-title">耶鲁大学霍斯特曼奖学金</div>
+                        </div>
+                        <div class="item-subtitle">耶鲁大学</div>
+                    </div>
+                    
+                    <div class="award-item">
+                        <div class="item-header">
+                            <div class="item-title">中南财经政法大学一等奖学金</div>
+                        </div>
+                        <div class="item-subtitle">中南财经政法大学</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Contact Me</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-text">
+                        <p>I'm always open to research collaborations and interesting projects. Feel free to reach out!</p>
+                    </div>
+                    <div class="contact-methods">
+                        <a href="mailto:zaydenxiong10@gmail.com" class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>zaydenxiong10@gmail.com</span>
+                        </a>
+                        <a href="#" class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <span>linkedin.com/in/johndoe</span>
+                        </a>
+                        <a href="#" class="contact-method">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Google Scholar</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>© 2025 熊泽同 | AI产品管理 & 大数据分析</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:zaydenxiong10@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Animate terminal cursor
+        setInterval(() => {
+            const cursors = document.querySelectorAll('.terminal-cursor');
+            cursors.forEach(cursor => {
+                cursor.style.opacity = cursor.style.opacity === '0' ? '1' : '0';
+            });
+        }, 500);
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
